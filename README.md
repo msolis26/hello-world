@@ -1,3 +1,4 @@
-# hello-world
-This repository is for practicing GitHub
-Hello world i am Martin Solis and i am an ivy tech student
+<html>
+<title>Welcome to My Website.</title>
+<h1> Welcome to My Website! </h1>
+<p> This is a blog site that i want to make showcasing Various Cheap tech products to document becuase i like doing tech reviews.</p>
