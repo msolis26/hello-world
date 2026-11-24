@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <style>
+    theme-toggle{
+      display: none;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: white;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      user-select: none;
+    }
+    
+  </style>
 
   </head>
   <body>
    
-  </body>
+
 
 <title>Welcome to My Website.</title>
 <header> Welcome to My Website! </header>
@@ -14,5 +29,7 @@
   <ol>
     <li><a href= "https://msolis26.github.io/hello-world/review1.html">Mini Digital Camera from Five Below</a></li>
 
-<button onclick="document.body.style.backgroundColor = black; document.body.style.color = white ">Dark Mode</button>
-    
+<input type ="checkbox" id="theme-toggle">
+    <label for="theme-toggle" class="btn">Toggle Dark Mode</label>
+
+</body>  
