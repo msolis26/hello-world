@@ -1,22 +1,15 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <style>
-    theme-toggle{
-      display: none;
-    }
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background: white;
-      color: white;
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
       cursor: pointer;
-      border-radius: 5px;
-      user-select: none;
     }
-    
   </style>
-
+ 
   </head>
   <body>
    
@@ -29,7 +22,14 @@
   <ol>
     <li><a href= "https://msolis26.github.io/hello-world/review1.html">Mini Digital Camera from Five Below</a></li>
 
-<input type ="checkbox" id="theme-toggle">
-    <label for="theme-toggle" class="btn">Toggle Dark Mode</label>
 
+    <button onclick="changeColor()">Dark Mode Toggle</button>
+    <script>
+      const colors = ["white", "black"]
+      let index = 0;
+      function changeColor(){
+        document.body.style.documentColor = colors[1]
+      }       
+    </script>
 </body>  
+</html>
