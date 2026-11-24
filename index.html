@@ -3,6 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <style>
+    body{
+      font-family: Arial, sans-serif;
+      display: flex;
+      transition: background-color 0.3s ease;
+      background-color: white;
+      body: black;
+      
+    }
     button {
       padding: 12px 24px;
       font-size: 16px;
@@ -26,11 +34,10 @@
   </ol>
     <button onclick="changeColor()">Dark Mode Toggle</button>
     <script>
-      const colors = ["white", "black"]
-      let index = 0;
-      function changeColor(){
-        document.body.style.documentColor = colors[1]
-      }       
+      function changeColor() {
+        background-color: black;
+        body: white;
+      }      
     </script>
 </body>  
 </html>
