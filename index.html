@@ -3,6 +3,16 @@
 <head>
  
   <style>
+   body {
+    background-color: white;
+    color: black;
+   }
+   
+   .dark-mode {
+    background-color: black;
+    color: white;
+   }
+ 
  
     button {
       padding: 12px 24px;
@@ -28,8 +38,9 @@
     <button onclick="changeColor()">Dark Mode Toggle</button>
     <script>
       function changeColor() {
-        background-color: black;
-        body: white;
+        var element = document.body;
+        element.classList.toggle("dark-mode")
+        
       }      
     </script>
 </body>  
