@@ -14,20 +14,50 @@ body {
   background-color: black;
   color: white;
 }
-</style>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <style>
+   body {
+    background-color: white;
+    color: black;
+   }
+   
+   .dark-mode {
+    background-color: black;
+    color: white;
+   }
+ 
+ 
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+ 
+  </head>
+  <body>
+   
 
-<h2>Toggle Dark/Light Mode</h2>
-<p>Click the button to toggle between dark and light mode for this page.</p>
 
-<button onclick="myFunction()">Toggle dark mode</button>
+<title>Welcome to My Website.</title>
+<header> Welcome to My Website! </header>
+<p> This is a blog site that i want to make showcasing Various Cheap tech products to document becuase i like doing tech reviews.</p>
+<p>While you're here check out these pages, Im sure you'll be interested in these. ;)</p>
+  <ol>
+    <li><a href= "https://msolis26.github.io/hello-world/review1.html">Mini Digital Camera from Five Below</a></li>
+    <li><a href= "https://msolis26.github.io/hello-world/review2.html">$12 Portable Game Console Review</a></li>
 
-<script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
+  </ol>
+    <button onclick="changeColor()">Dark Mode Toggle</button>
+    <script>
+      function changeColor() {
+        var element = document.body;
+        element.classList.toggle("dark-mode")
+        
+      }      
 </script>
 
 </body>
